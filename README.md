@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Then i followed the tutorial from Ed Roh : https://www.youtube.com/watch?v=wYpCWwD1oz0
+
+To make sure i was understanding i tried to add a fading when changing the dark/light mode.
+
+It is not finished as i realized this tutorial was meant to present React-App to user already more familiar with JS than me so i started a side project to catch up.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
