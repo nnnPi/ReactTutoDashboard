@@ -1,0 +1,11 @@
+button {
+    width: auto;
+    height: auto;
+}
+
+.count-display {
+
+    background: gray;
+    height: auto;
+    width: 200px;
+}

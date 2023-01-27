@@ -1,0 +1,62 @@
+[
+  {
+    "Entry": "Name",
+    "Value": "Potato"
+  },
+  {
+    "Entry": "Type1",
+    "Value": "Plant"
+  },
+  {
+    "Entry": "Type2",
+    "Value": "Food"
+  },
+  {
+    "Entry": "BaseYield",
+    "Value": 100
+  },
+  {
+    "Entry": "EarthAff",
+    "Value": 70
+  },
+  {
+    "Entry": "SandAff",
+    "Value": 10
+  },
+  {
+    "Entry": "ClayAff",
+    "Value": 10
+  },
+  {
+    "Entry": "RockAff",
+    "Value": 10
+  },
+  {
+    "Entry": "WaterNeed",
+    "Value": 50
+  },
+  {
+    "Entry": "WaterImpact",
+    "Value": 75
+  },
+  {
+    "Entry": "NitrogenNeed",
+    "Value": 50
+  },
+  {
+    "Entry": "NitrogenImpact",
+    "Value": 75
+  },
+  {
+    "Entry": "Surface",
+    "Value": 0.25
+  },
+  {
+    "Entry": "Height",
+    "Value": 0.25
+  },
+  {
+    "Entry": "Density",
+    "Value": 1
+  }
+]

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <script>
+const test = () => {
+    console.log(this);
+    }
+    const test2 = function() {
+    console.log(this);
+    }
+    
+    const obj = {
+    test2: test2,
+    test: test,
+    }
+    
+    test();
+    obj.test();
+    test2();
+    obj.test2();
+</script>
+
+    </html>

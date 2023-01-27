@@ -1,0 +1,74 @@
+import React from "react"
+import Keys from "./Veggies/VeggiesKey"
+import PotatoRaw from "./Veggies/PotatoFolder/potato"
+import CarrotRaw from "./Veggies/CarrotFolder/carrot"
+import CucumberRaw from "./Veggies/CucumberFolder/Cucumber"
+import * as VeggiesList from "./Veggies/VeggiesList"
+
+
+const SomeData = () =>{
+    
+ console.log(Zut)
+
+  
+    var Veggies={};
+    for ( let i=0 ; i<VeggiesList.length; i++ ){           
+     Veggies[i] = VeggiesList[i].slice(0,VeggiesList[i].length-3)   
+      
+    };
+
+
+
+
+   // for ( let i=0; i<Veggies.length;i++){
+   //   Veggies[i]+= "a"
+  //    };
+ 
+
+ //console.log(Veggies[0])
+ 
+ 
+ 
+   
+
+
+
+    
+    const Potato = {};    
+    Keys.forEach((element, index) => {
+      Potato[element] = PotatoRaw[index];
+    });
+
+    const Carrot = {};    
+    Keys.forEach((element, index) => {
+      Carrot[element] = CarrotRaw[index];
+    });
+    
+    const Cucumber = {};    
+    Keys.forEach((element, index) => {
+      Cucumber[element] = CucumberRaw[index];
+    });
+    
+
+
+    // previous
+    //console.table(Potato);
+    //alert(Potato.Height)
+ 
+
+
+      //old attempt
+       // console.log(Potato[0].Type1)
+       // alert(Potato[0].Type2)
+       // alert(Potato[0].Height)
+       // alert(Carrot[0].NitrogenNeed)
+       // alert(Cucumber[0].Surface)
+
+   
+return <div></div>
+}
+
+
+
+export default SomeData
+

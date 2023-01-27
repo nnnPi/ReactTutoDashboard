@@ -1,0 +1,63 @@
+const PotatoZ = [
+  { "Potato":[    
+  {       
+      "Type1":
+      "Plant"
+  },
+  {
+     "Type2":
+     "Food"
+  },
+  {
+     "BaseYield":
+     100
+  },
+  {
+     "EarthAff":
+     70
+  },
+  {
+     "SandAff":
+     10
+  },
+  {
+     "ClayAff":
+     10
+  },
+  {
+     "RockAff":
+     10
+  },
+  {
+     "WaterNeed":
+     50
+  },
+  {
+     "WaterImpact":
+     75
+  },
+  {
+     "NitrogenNeed":
+     50
+  },
+  {
+     "NitrogenImpact":
+     75
+  },
+  {
+     "Surface":
+     0.25
+  },
+  {
+     "Height":
+     0.25
+  },
+  {
+     "Density":
+     1
+  }
+]}
+]
+
+
+export default PotatoZ
